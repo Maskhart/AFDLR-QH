@@ -1,0 +1,108 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0px 0 50px;
+    background:url(../../img/front/foncomplet700px.jpg);
+	margin-bottom: 30px;
+}
+.lien, .lien:hover, .lien:active, .lien:visited { 
+    display:block;
+    color: black; 
+    text-decoration: none;
+}
+
+h3{
+    display:block;
+    text-align: center;
+    color:#f1911f;
+}
+.filtreJour{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-image:url(../../img/front/boutonappli.png);
+    background-size: 100%;
+    line-height: 150px;
+    margin:auto;
+    color: white;
+}
+
+#filtre{
+    text-align:center;
+    padding-top:50px;
+}
+.subbody{
+    padding-top:45px;
+    position:absolute;  
+    width:100%;
+}
+
+.horairepassage{
+   width: 20%;
+   height:100%;
+   display: inline-block;
+   padding-left:0px;
+   font-weight: bold;
+   color:white;
+   text-align:center;
+   background-color: #832945;
+}
+
+.lsf{
+    height:100%;
+    width:100%;
+}
+.blocartiste{
+    width:100%;
+    position:relative;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background-color: #832945;
+}
+.blockinfo{
+    display:inline-block;
+    width:80%;
+    margin-top:0px;
+}
+.info{
+    display:block;
+    margin-bottom:0px;
+    color:white;    
+    text-align:center;
+    font-weight: bold;
+    height:20%;
+}
+.image{
+    width: 100%;
+}
+
+.lsficon{
+    background-size: cover;
+    width: 75%;
+    height: 75%;
+}
+
+#progra{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#background:before,
+#background:after {
+    content: '';
+    position:absolute;   
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#background:before {
+    background-image: url('../../img/front/coingauche.png');
+}
+
+#background:after {
+    background-image: url('../../img/front/coindroit.png');
+}

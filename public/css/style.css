@@ -1,0 +1,425 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 janv. 2015, 15:37:04
+    Author     : MAXIME
+*/
+.header{
+    text-align: center;
+    //border: solid;
+}
+
+.colorLien{
+    margin: 5px 0 5px 0;
+    width: 110px;
+    text-decoration: none;
+    color: rgb(82,78,71); 
+}
+
+.img{
+    width: 200px;
+}
+
+.background{
+    background-color: beige;
+    font-family: monospace;
+}
+
+.connexion{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    float: left;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.menuBouton{
+    width: 150px;
+    height: 50px;
+}
+
+.error{
+    color : red; 
+}
+
+.titreFormulaire{
+    text-align: center;
+}
+
+.boutonChoix{
+    width: 200px;
+}
+
+.boutonChoixCentrer{
+    text-align: center;
+}
+
+/*HEADER MENU MENU LIVE*/
+#divMenu{
+    width: 100%;
+}
+
+.nav, .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav {
+    /* on centre le menu dans la page */
+    text-align: center;
+    width: 100%;
+    border: solid;
+    background-color: rgb(82,78,71);
+    border-radius: 10px;
+}
+.nav .menu {
+    /* on place les liens du menu horizontalement */
+    display: inline-block;
+    margin: 0 60px 0 60px;
+}
+.nav ul li {
+    /* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+.nav a {
+    margin: 5px 0 5px 0;
+    width: 110px;
+    text-decoration: none;
+    display: block;
+    color:#000;
+    background-color: beige;
+    border: solid;
+    border-radius: 10px;
+}
+
+.link{
+    background-color: beige;
+}
+
+.nav a:hover{
+    background-color: rgb(249,183,56);
+}
+
+.nav ul {
+    position: absolute;
+    border: solid;
+    border-radius: 0 0px 10px 10px;
+    /* on cache les sous menus completement sur la gauche */
+    display: none;
+}
+.nav li:hover ul {
+    /* Au survol des li du menu on replace les sous menus */
+    display: block;
+}
+
+.ulMenu{
+    background-color: rgb(82,78,71);
+    z-index: 2;
+}
+
+/*ACCEUIL GESTION CONTENU*/
+#bloc_page{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.divSession{
+    width: 150px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/*GESTION LIVE*/
+#divMainLive{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+/*Titre*/
+#gestionLive{
+    margin-left: 5px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+
+#divDiffusion{
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    border: solid;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+.choixScene{
+    width: 100%;
+}
+
+.artisteActif{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.programmation{
+    margin-left: 10px;
+}
+
+.divPrograGenerale{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#listeMusiques{
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#divMusiques{
+    margin-left: 150px;
+    display: inline-block;
+}
+
+#boutonAccessible{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.divClick{
+    display: inline-block;
+    width: 10%;
+}
+
+.divClick:hover{
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+/*GESTION ARTISTE*/
+
+/*Formulaire Ajout artiste*/
+.formulaireAjoutArtiste{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.boutonValidationFormulaire{
+    text-align: center;
+}
+
+.formulaireArtiste{
+    position: absolute;
+    left: 32%;
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formulaireArtiste label{
+    width: 150px;
+}
+
+.conteneurBouton{
+    float: left;
+    padding-top: 14px;
+}
+
+.boutonSelect{
+    display: block;
+}
+
+.allGenres, .allNationalites{
+    float: left;
+}
+
+.selectGenres, .selectNationalites{
+    clear: both;
+}
+
+.selectNationalites{
+    margin-top: 10px;
+}
+
+/*GESTION MUSIQUE*/
+.formulaireMusique label{
+    width: 150px;
+}
+
+.formulaireMusique{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.video, .image{
+    margin-left: 175px;
+    visibility: hidden;
+}
+
+/*GESTION PROGRAMMATION*/
+.formulaireProgrammation{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formulaireProgrammation label{
+   width: 130px; 
+}
+
+#rechercher{
+    float: right;
+    margin-right: 20%;
+}
+
+/*GESTION ASSOCIATIONS*/
+.formulaireAjoutAssociation{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formulaireAssociation{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formulaireAssociation label{
+    width: 200px;
+}
+
+.formulaireInformation{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.informationImage {
+    margin-left: 125px;
+    visibility: hidden;
+}
+
+.gestionInfo{
+    margin-left: 45%;
+}
+
+.divInfoAction{
+    background-color: grey;
+    margin: 0 5px 5px 5px;
+    padding: 1px 0 1px 0;
+}
+
+/*GESTION PARAMETRES*/
+.choixParametre{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+}
+.formulaireParametre{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.formulaireParametre label{
+    width: 170px;
+}
+
+.formulaireParametre form p{
+    display: block;
+    height: 20px;
+}
+
+
+.formulaireAjoutParametre{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10px;
+}
+
+input[type=submit], input[type=button]{
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+    background-color: rgb(249,183,56);
+    cursor: pointer;
+}
+
+select[multiple]{
+    width: 100px;
+}
+
+a{
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+body{
+    min-width: 320px;
+    max-width: 100%;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    background:url(../../img/front/foncomplet700px.jpg);
+    background-attachment: fixed;
+    font-family:sans-serif;
+}
+.avideo{
+	width:100%;
+}
+
+.subbody{
+    margin:0;
+    padding-left :25px;
+    padding-right :25px;
+    padding-top: 0;
+}
+.banniere{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.nomArtiste{
+    color: white;
+    font-size:150%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #b8aa8f;
+    padding: 5px;   
+}
+
+.infoArtiste{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.rightCell{
+    float:right;
+    
+}
+
+.imgLSF{
+   width:30px;
+   height:40px;
+   background-size:cover;
+}
+
+
+.descriptionArtiste{
+    padding-top:20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #504c43;
+    clear:both;
+    text-align:justify;
+    background-color: #832945;
+    color: #F0F0F0;
+    font-size:14px;
+}
+
+.video{
+    width: 100%;
+    height: 160px;
+}
+
+.retour, .retour:hover, .retour:active, .retour:visited { 
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-image:url(../../img/front/boutonappli.png);
+    background-size: 100%;
+    line-height: 150px;
+    margin:auto;
+    color: white;
+    
+}
+
+.band{
+    background-color: black;
+    width: 100%;
+}
+
+.mid{
+    margin-top:30px;
+}

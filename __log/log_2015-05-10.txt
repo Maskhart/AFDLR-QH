@@ -1,0 +1,71 @@
+2015-05-10 21:58:44 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('l:PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:02:21 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('l:PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:02:33 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('p:PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:03:29 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('p.PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:03:43 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('l:PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:03:52 - ERROR - /app/base/library/Doctrine/Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class My_Orm_PrestationMusique' in /app/base/library/Doctrine/Table.php:299
+Stack trace:
+#0 /app/base/library/Doctrine/Table.php(249): Doctrine_Table->initDefinition()
+#1 /app/base/library/Doctrine/Connection.php(1126): Doctrine_Table->__construct('My_Orm_Prestati...', Object(Doctrine_Connection_Mysql), true)
+#2 /app/base/library/Doctrine/Relation/Parser.php(278): Doctrine_Connection->getTable('My_Orm_Prestati...')
+#3 /app/base/library/Doctrine/Relation/Parser.php(404): Doctrine_Relation_Parser->getImpl('My_Orm_Prestati...')
+#4 /app/base/library/Doctrine/Relation/Parser.php(207): Doctrine_Relation_Parser->completeDefinition(Array)
+#5 /app/base/library/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('PrestationMusiq...', true)
+#6 /app/base/library/Doctrine/Query.php(1726): Doctrine_Table->getRelation('PrestationMusiq...')
+#7 /app/base/library/Doctrine/Query/From.php(88): Doctrine_Query->load('p.PrestationMus...')
+#8 /app/base/l
+2015-05-10 22:06:57 - ERROR - /app/base/public/webview/InfoArtiste.php - Line 84 - Call to a member function isAndroidOS() on a non-object
+2015-05-10 22:08:45 - ERROR - /app/base/public/webview/InfoArtiste.php - Line 84 - Call to a member function isAndroidOS() on a non-object
+2015-05-10 22:09:28 - ERROR - /app/base/public/webview/InfoArtiste.php - Line 84 - Call to a member function isAndroidOS() on a non-object
+2015-05-10 22:11:06 - ERROR - /app/base/public/webview/InfoArtiste.php - Line 84 - Call to a member function isAndroidOS() on a non-object
+2015-05-10 22:16:37 - ERROR - /app/base/public/webview/InfoArtiste.php - Line 84 - Call to a member function isAndroidOS() on a non-object

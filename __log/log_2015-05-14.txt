@@ -1,0 +1,37 @@
+2015-05-14 13:09:08 - ERROR - /app/base/library/Doctrine/Connection.php - Line 1082 - Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foinqhmobile`.`musique`, CONSTRAINT `musique_ibfk_2` FOREIGN KEY (`IdentifiantArtiste`) REFERENCES `artiste` (`Identifiant`))' in /app/base/library/Doctrine/Connection.php:1082
+Stack trace:
+#0 /app/base/library/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /app/base/library/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /app/base/library/Doctrine/Connection/UnitOfWork.php(251): Doctrine_Connection->exec('DELETE FROM art...', Array)
+#3 /app/base/library/Doctrine/Connection/UnitOfWork.php(168): Doctrine_Connection_UnitOfWork->_executeDeletions(Array)
+#4 /app/base/library/Doctrine/Record.php(2154): Doctrine_Connection_UnitOfWork->delete(Object(My_Orm_Artiste))
+#5 /app/base/public/manager/gesti
+2015-05-14 13:09:24 - ERROR - /app/base/library/Doctrine/Connection.php - Line 1082 - Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foinqhmobile`.`musique`, CONSTRAINT `musique_ibfk_2` FOREIGN KEY (`IdentifiantArtiste`) REFERENCES `artiste` (`Identifiant`))' in /app/base/library/Doctrine/Connection.php:1082
+Stack trace:
+#0 /app/base/library/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /app/base/library/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /app/base/library/Doctrine/Connection/UnitOfWork.php(251): Doctrine_Connection->exec('DELETE FROM art...', Array)
+#3 /app/base/library/Doctrine/Connection/UnitOfWork.php(168): Doctrine_Connection_UnitOfWork->_executeDeletions(Array)
+#4 /app/base/library/Doctrine/Record.php(2154): Doctrine_Connection_UnitOfWork->delete(Object(My_Orm_Artiste))
+#5 /app/base/public/manager/gesti
+2015-05-14 13:11:58 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Artiste
+
+  1 field had validation error:
+
+    * 1 validator failed on IdentifiantVideo (notnull)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Artiste))
+#3 /app/base/public/manager/gestion-artiste-ajouter.php(38): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-14 13:27:32 - ERROR - /app/base/library/Doctrine/Connection.php - Line 1082 - Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foinqhmobile`.`musique`, CONSTRAINT `musique_ibfk_2` FOREIGN KEY (`IdentifiantArtiste`) REFERENCES `artiste` (`Identifiant`))' in /app/base/library/Doctrine/Connection.php:1082
+Stack trace:
+#0 /app/base/library/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /app/base/library/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /app/base/library/Doctrine/Connection/UnitOfWork.php(251): Doctrine_Connection->exec('DELETE FROM art...', Array)
+#3 /app/base/library/Doctrine/Connection/UnitOfWork.php(168): Doctrine_Connection_UnitOfWork->_executeDeletions(Array)
+#4 /app/base/library/Doctrine/Record.php(2154): Doctrine_Connection_UnitOfWork->delete(Object(My_Orm_Artiste))
+#5 /app/base/public/manager/gesti

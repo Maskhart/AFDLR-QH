@@ -1,0 +1,117 @@
+2015-05-29 16:47:08 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 16:47:17 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 16:49:43 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:01:51 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:02:44 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:20:14 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-modifier.php(19): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:21:14 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-modifier.php(19): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:31:52 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
+2015-05-29 17:35:49 - ERROR - /app/base/library/Doctrine/Transaction.php - Line 265 - Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class My_Orm_Image
+
+  1 field had validation error:
+
+    * 1 validator failed on Titre (length)
+' in /app/base/library/Doctrine/Transaction.php:265
+Stack trace:
+#0 /app/base/library/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /app/base/library/Doctrine/Connection/UnitOfWork.php(143): Doctrine_Connection->commit()
+#2 /app/base/library/Doctrine/Record.php(1691): Doctrine_Connection_UnitOfWork->saveGraph(Object(My_Orm_Image))
+#3 /app/base/public/manager/gestion-action-ajouter.php(22): Doctrine_Record->save()
+#4 {main}
+  thrown
