@@ -1,6 +1,6 @@
 <header>
     <div class="divSession">
-        <a href="home.php" class="colorLien">Acceuil</a>
+        <a href="home.php" class="colorLien">Accueil</a>
         <a href="../index.php" class="colorLien">Déconnexion</a>
     </div>
     <div class="header clear">
@@ -37,7 +37,7 @@
                     <li><a href="gestion-association-supprimer.php">Supprimer une association</a></li>
                 </ul>
             </li>
-            <li class="menu"><a href="gestion-parametre.php" class="link" >Parametres</a>
+            <li class="menu"><a href="gestion-parametre.php" class="link" >Paramètres</a>
                 <ul class="ulMenu">
                     <li><a href="gestion-scene.php">Scenes</a></li>
                     <li><a href="gestion-genre.php">Genres</a></li>

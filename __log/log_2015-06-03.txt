@@ -1,0 +1,7 @@
+2015-06-03 16:05:00 - ERROR - C:\wamp\www\base\library\Doctrine\Connection.php - Line 1082 - Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foinqhmobile`.`musique`, CONSTRAINT `musique_ibfk_2` FOREIGN KEY (`IdentifiantArtiste`) REFERENCES `artiste` (`Identifiant`))' in C:\wamp\www\base\library\Doctrine\Connection.php:1082
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Connection\Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 C:\wamp\www\base\library\Doctrine\Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 C:\wamp\www\base\library\Doctrine\Connection\UnitOfWork.php(251): Doctrine_Connection->exec('DELETE FROM art...', Array)
+#3 C:\wamp\www\base\library\Doctrine\Connection\UnitOfWork.php(168): Doctrine_Connection_UnitOfWork->_executeDeletions(Array)
+#4 C:\wamp\www\base\library\Doctrine\Record.php(2154): Doctrine_Connection_UnitOfWork->delete(Object(My_Orm_A

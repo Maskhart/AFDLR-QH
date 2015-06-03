@@ -1,6 +1,7 @@
 <header>
     <div class="divSession">
-        <a href="home.php" class="colorLien">Acceuil</a>
+        <a href="home.php" class="colorLien">Accueil</a>
+        <a href="../index.php" class="colorLien">Déconnexion</a>
     </div>
     <div class="header clear">
         <img class="img" src="../img/front/logoafdlr.png"/>
