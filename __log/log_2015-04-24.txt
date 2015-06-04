@@ -1,3 +1,0 @@
-2015-04-24 09:23:13 - ERROR - C:\Wamp\www\base\public\webview\Programmation.php - Line 33 - Call to undefined function console()
-2015-04-24 09:23:15 - ERROR - C:\Wamp\www\base\public\webview\Programmation.php - Line 33 - Call to undefined function console()
-2015-04-24 09:24:06 - ERROR - C:\Wamp\www\base\public\webview\Programmation.php - Line 33 - Call to undefined function console()

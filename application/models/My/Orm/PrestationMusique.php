@@ -25,8 +25,7 @@ class My_Orm_PrestationMusique extends My_Entity_PrestationMusique
         
         return $oPrestationMusique;
     }
-
-    
+        
     public static function findAll()
     {
         $aPrestationMusique = Doctrine::getTable('My_Orm_Prestationmusique')

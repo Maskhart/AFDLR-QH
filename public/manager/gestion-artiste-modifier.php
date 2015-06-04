@@ -12,14 +12,24 @@ if (empty($_POST) == false) {
                 $tabIdsGenresArtiste = explode(",", $_POST['inputGenresArtiste']);
                 $tabIdsNationalitesArtiste = explode(",", $_POST['inputNationalitesArtiste']);
 
-                if (isset($_FILES['imageFile']) AND $_FILES['imageFile']['error'] == 0) {
-                    move_uploaded_file($_FILES['imageFile']['tmp_name'], '../img/data/' . basename($_FILES['imageFile']['name']));
+                if (isset($_FILES['banniereFile']) AND $_FILES['banniereFile']['error'] == 0) {
+                    move_uploaded_file($_FILES['banniereFile']['tmp_name'], '../img/data/' . basename($_FILES['banniereFile']['name']));
                     $oImage = new My_Orm_Image();
-                    $oImage->Titre = htmlspecialchars(basename($_FILES['imageFile']['name']));
-                    $oImage->Chemin = htmlspecialchars('../img/data/' . $_FILES['imageFile']['name']);
+                    $oImage->Titre = htmlspecialchars(basename($_FILES['banniereFile']['name']));
+                    $oImage->Chemin = htmlspecialchars('../img/data/' . $_FILES['banniereFile']['name']);
                     $oImage->save();
 
                     $oArtiste->Image = $oImage;
+                }
+
+                if (isset($_FILES['miniatureFile']) AND $_FILES['miniatureFile']['error'] == 0) {
+                    move_uploaded_file($_FILES['miniatureFile']['tmp_name'], '../img/data/' . basename($_FILES['miniatureFile']['name']));
+                    $oMiniature = new My_Orm_Miniature();
+                    $oMiniature->Titre = htmlspecialchars(basename($_FILES['miniatureFile']['name']));
+                    $oMiniature->Chemin = htmlspecialchars('../img/data/' . $_FILES['miniatureFile']['name']);
+                    $oMiniature->save();
+
+                    $oArtiste->Miniature = $oMiniature;
                 }
 
                 if (isset($_FILES['videoFile']) AND $_FILES['videoFile']['error'] == 0) {
@@ -111,8 +121,10 @@ require 'include/header-gestion.php';
         </p>
         <p><label for="nom">Nom</label><input type="text" id="nom" name="nom"/></p>
         <p><label for="description">Description</label><textarea name="description" id="description" rows="10"></textarea></p>
-        <p><label for="image">Image</label><input type="text" id="imageTitre" readonly="readonly"/><input type="button" value="Modifier" id="modifierImage"/></p>
-        <p class="image" id="imageFile"><input type="file" name="imageFile"/></p>
+        <p><label for="modifierBanniere">Bannière</label><input type="text" id="banniereTitre" readonly="readonly"/><input type="button" value="Modifier" id="modifierBanniere"/></p>
+        <p class="image" id="banniereFile"><input type="file" name="banniereFile"/></p>
+        <p><label for="modifierMiniature">Miniature</label><input type="text" id="miniatureTitre" readonly="readonly"/><input type="button" value="Modifier" id="modifierMiniature"/></p>
+        <p class="image" id="miniatureFile"><input type="file" name="miniatureFile"/></p>
         <p><label for="video">Vidéo</label><input type="text" id="videoTitre" readonly="readonly"/><input type="button" value="Modifier" id="modifierVideo"/></p>
         <p class="video" id="videoFile"><input type="file" name="videoFile"/></p>
         <div class="selectGenres"><label for="genres">Genre</label>

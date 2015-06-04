@@ -16,6 +16,7 @@ if (empty($_POST) == false) {
     }
 }
 
+
 $aArtistes = My_Orm_Artiste::findAll();
 
 require 'include/header-gestion.php';

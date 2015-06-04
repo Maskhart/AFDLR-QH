@@ -66,13 +66,13 @@ function serializeGenresArtiste() {
 }
 
 function serializeNationalitesArtiste() {
-    
+
     var ids = [];
-    
+
     $('#nationalitesArtiste option').each(function () {
-       ids.push($(this).val()); 
+        ids.push($(this).val());
     });
-    
+
     $('#inputNationalitesArtiste').val(ids.join());
 }
 
@@ -87,14 +87,20 @@ $(document).ready(function ()
         success: function (data, success) {
 
             var artiste = jQuery.parseJSON(data);
+            console.log(artiste);
 
             //Remplissage des champs
             $('#edit #nom').val(artiste.Nom);
             $('#edit #description').val(artiste.Description);
             if (artiste.Image) {
-                $('#edit #imageTitre').val(artiste.Image.Titre);
+                $('#edit #banniereTitre').val(artiste.Image.Titre);
             } else {
-                $('#edit #imageTitre').val('Pas de vidéo');
+                $('#edit #banniereTitre').val('Pas de bannière');
+            }
+            if (artiste.Miniature) {
+                $('#edit #miniatureTitre').val(artiste.Miniature.Titre);
+            } else {
+                $('#edit #miniatureTitre').val('Pas de miniature');
             }
             if (artiste.Video) {
                 $('#edit #videoTitre').val(artiste.Video.Titre);
@@ -133,14 +139,20 @@ $(document).ready(function ()
             success: function (data, success) {
 
                 var artiste = jQuery.parseJSON(data);
+                console.log(artiste);
 
                 //Remplissage des champs
                 $('#edit #nom').val(artiste.Nom);
                 $('#edit #description').val(artiste.Description);
                 if (artiste.Image) {
-                    $('#edit #imageTitre').val(artiste.Image.Titre);
+                    $('#edit #banniereTitre').val(artiste.Image.Titre);
                 } else {
-                    $('#edit #imageTitre').val('Pas de vidéo');
+                    $('#edit #banniereTitre').val('Pas de bannière');
+                }
+                if (artiste.Miniature) {
+                    $('#edit #miniatureTitre').val(artiste.Miniature.Titre);
+                } else {
+                    $('#edit #miniatureTitre').val('Pas de miniature');
                 }
                 if (artiste.Video) {
                     $('#edit #videoTitre').val(artiste.Video.Titre);
@@ -165,9 +177,13 @@ $(document).ready(function ()
         });
 
     });
-    //Clique sur le bouton modifier pour image
-    $('#edit #modifierImage').on('click', function () {
-        $('#imageFile').css("visibility", "visible");
+    //Clique sur le bouton modifier pour banniere
+    $('#edit #modifierBanniere').on('click', function () {
+        $('#banniereFile').css("visibility", "visible");
+    });
+    //Clique sur le bouton modifier pour miniature
+    $('#edit #modifierMiniature').on('click', function () {
+        $('#miniatureFile').css("visibility", "visible");
     });
     //Clique sur le bouton modifier pour vidéo
     $('#edit #modifierVideo').on('click', function () {

@@ -13,15 +13,26 @@ if (empty($_POST) == false) {
                 $tabIdsGenresArtiste = explode(",", $_POST['inputGenresArtiste']);
                 $tabIdsNationalitesArtiste = explode(",", $_POST['inputNationalitesArtiste']);
 
-                //Ajout de l'image s'il y en a une 
-                if (isset($_FILES['image']) AND $_FILES['image']['error'] == 0) {
-                    move_uploaded_file($_FILES['image']['tmp_name'], '../img/data/' . basename($_FILES['image']['name']));
+                //Ajout de la banniere
+                if (isset($_FILES['banniere']) AND $_FILES['banniere']['error'] == 0) {
+                    move_uploaded_file($_FILES['banniere']['tmp_name'], '../img/data/' . basename($_FILES['banniere']['name']));
                     $oImage = new My_Orm_Image();
-                    $oImage->Titre = htmlspecialchars(basename($_FILES['image']['name']));
-                    $oImage->Chemin = htmlspecialchars('../img/data/' . $_FILES['image']['name']);
+                    $oImage->Titre = htmlspecialchars(basename($_FILES['banniere']['name']));
+                    $oImage->Chemin = htmlspecialchars('../img/data/' . $_FILES['banniere']['name']);
                     $oImage->save();
 
                     $oArtiste->Image = $oImage;
+                }
+
+                //Ajout de la miniature
+                if (isset($_FILES['miniature']) AND $_FILES['miniature']['error'] == 0) {
+                    move_uploaded_file($_FILES['miniature']['tmp_name'], '../img/data/' . basename($_FILES['miniature']['name']));
+                    $oMiniature = new My_Orm_Miniature();
+                    $oMiniature->Titre = htmlspecialchars(basename($_FILES['miniature']['name']));
+                    $oMiniature->Chemin = htmlspecialchars('../img/data/' . $_FILES['miniature']['name']);
+                    $oMiniature->save();
+
+                    $oArtiste->Miniature = $oMiniature;
                 }
 
                 //Ajout de la vidéo s'il y en a une
@@ -80,7 +91,8 @@ require 'include/header-gestion.php';
     <form id="add" method="post" action="" enctype="multipart/form-data">
         <p><label for="nom">Nom</label><input type="text" id="nom" name="nom"/></p>
         <p><label for="description">Description</label><textarea name="description" id="description" rows="10"></textarea></p>
-        <p><label for="image">Image</label><input type="file" value="Parcourir" id="image" name="image"/></p>
+        <p><label for="image">Bannière</label><input type="file" value="Parcourir" id="image" name="banniere"/></p>
+        <p><label for="image">Miniature</label><input type="file" value="Parcourir" id="image" name="miniature"/></p>
         <p><label for="video">Vidéo</label><input type="file" value="Parcourir" id="video" name="video"/></p>
         <div class="selectGenres"><label for="genre">Genre</label>
             <select id="genres" class="allGenres" multiple>
@@ -105,5 +117,6 @@ require 'include/header-gestion.php';
     </form>
 </div>
 <?php
+
 require 'include/footer.php';
 ?>

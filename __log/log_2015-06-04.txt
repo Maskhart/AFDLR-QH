@@ -1,0 +1,413 @@
+2015-06-04 00:02:48 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:02:52 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:02:54 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:03:00 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:03:06 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:04:37 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:04:44 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:08:09 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:08:13 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:08:15 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:10:14 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 00:10:18 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:08:48 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:09:41 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:16:32 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:19:02 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:19:05 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:21:46 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:22:26 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:23:25 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:23:55 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:25:06 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:25:09 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:27:33 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:28:50 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:29:04 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:29:26 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:29:54 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:32:28 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:32:40 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:32:48 - ERROR - C:\wamp\www\base\library\Doctrine\Table.php - Line 299 - Uncaught exception 'Doctrine_Exception' with message 'Couldn't find class na' in C:\wamp\www\base\library\Doctrine\Table.php:299
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Table.php(249): Doctrine_Table->initDefinition()
+#1 C:\wamp\www\base\library\Doctrine\Connection.php(1126): Doctrine_Table->__construct('na', Object(Doctrine_Connection_Mysql), true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1924): Doctrine_Connection->getTable('na')
+#3 C:\wamp\www\base\library\Doctrine\Query.php(1722): Doctrine_Query->loadRoot('na', 'na')
+#4 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('na:Nationalite ...')
+#5 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN na.N...')
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#7 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#8 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Do
+2015-06-04 11:32:58 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:33:12 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:34:33 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias GenreArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('GenreArtiste', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('GenreArtiste', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('GenreArtiste')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:GenreArtiste ...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Ge...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query->getSqlQuery(Array)
+#8 
+2015-06-04 11:34:42 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:34:52 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:35:01 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:35:41 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:36:09 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:36:18 - ERROR - C:\wamp\www\base\public\manager\ajax\get-artiste.php - Line 21 - Cannot use object of type Doctrine_Query as array
+2015-06-04 11:36:47 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a:NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('INNER JOIN a.Na...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query
+2015-06-04 11:37:19 - ERROR - C:\wamp\www\base\library\Doctrine\Relation\Parser.php - Line 237 - Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias NationaliteArtiste' in C:\wamp\www\base\library\Doctrine\Relation\Parser.php:237
+Stack trace:
+#0 C:\wamp\www\base\library\Doctrine\Relation\Parser.php(235): Doctrine_Relation_Parser->getRelation('NationaliteArti...', false)
+#1 C:\wamp\www\base\library\Doctrine\Table.php(1001): Doctrine_Relation_Parser->getRelation('NationaliteArti...', true)
+#2 C:\wamp\www\base\library\Doctrine\Query.php(1726): Doctrine_Table->getRelation('NationaliteArti...')
+#3 C:\wamp\www\base\library\Doctrine\Query\From.php(88): Doctrine_Query->load('a.NationaliteAr...')
+#4 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(2077): Doctrine_Query_From->parse('LEFT JOIN a.Nat...')
+#5 C:\wamp\www\base\library\Doctrine\Query.php(1156): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 C:\wamp\www\base\library\Doctrine\Query.php(1122): Doctrine_Query->buildSqlQuery(true)
+#7 C:\wamp\www\base\library\Doctrine\Query\Abstract.php(958): Doctrine_Query

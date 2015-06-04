@@ -82,6 +82,7 @@ abstract class My_Entity_Musique extends My_Base
 
         $this->hasMany('My_Orm_PrestationMusique as PrestationMusique', array(
              'local' => 'Identifiant',
-             'foreign' => 'IdentifiantMusique'));
+             'foreign' => 'IdentifiantMusique',
+             'onDelete' => 'CASCADE'));
     }
 }

@@ -7,6 +7,7 @@ if (isset($_GET['id'])) {
                     ->createQuery('a')
                     ->innerJoin('a.Image as i')
                     ->innerJoin('a.Video as v')
+                    ->innerJoin('a.Miniature as m')
                     ->innerJoin('a.NationaliteArtiste na')
                     ->innerJoin('na.Nationalite n')
                     ->innerJoin('a.GenreArtiste ga')
